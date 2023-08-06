@@ -12,6 +12,16 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      blur: {
+        xs: '1px',
+      },
+      borderColor: {
+        'green': '#00ce43',
+      },
+      fontFamily: {
+        // fira code
+        'fira-code': ['Fira Code', 'monospace'],
+      }
     },
   },
   plugins: [],
