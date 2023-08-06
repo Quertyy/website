@@ -21,6 +21,9 @@ module.exports = {
       fontFamily: {
         // fira code
         'fira-code': ['Fira Code', 'monospace'],
+      },
+      colors: {
+        'green': '#00ce43',
       }
     },
   },

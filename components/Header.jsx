@@ -10,11 +10,11 @@ const Header = () => {
                 <img src="querty-01.svg" alt="Logo" className="h-13 w-auto" />
                 <nav className="mt-4 text-xl">
                     <span>[</span>
-                    <a href="/" className="ml-4 mr-4 hover:blur-xs hover:text-green-400 tracking-widest">Home</a>
+                    <a href="/" className="ml-4 mr-4 hover:blur-xs hover:text-green tracking-widest">Home</a>
                     <span>||</span>
-                    <a href="/projects" className="ml-4 mr-4 hover:blur-xs hover:text-green-400 tracking-widest">Projects</a>
+                    <a href="/projects" className="ml-4 mr-4 hover:blur-xs hover:text-green tracking-widest">Projects</a>
                     <span>||</span>
-                    <a href="/career" className="ml-4 mr-4 hover:blur-xs hover:text-green-400 tracking-widest">Career</a>
+                    <a href="/career" className="ml-4 mr-4 hover:blur-xs hover:text-green tracking-widest">Career</a>
                     <span>]</span>
                 </nav>
             </div>
