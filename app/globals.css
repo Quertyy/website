@@ -16,10 +16,16 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-
 body {
   color: #d0d3d2;
   background-color: #1e1e1e;
-  font-family: 'Fira Code', monospace;
+}
+
+body > div {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 48rem;
+  min-height: 100vh;
 }

@@ -18,9 +18,6 @@ module.exports = {
       borderColor: {
         'green': '#00ce43',
       },
-      fontFamily: {
-        'fira-code': ['Fira Code', 'monospace'],
-      },
       colors: {
         'green': '#00ce43',
         'gray': '#1e1e1e',

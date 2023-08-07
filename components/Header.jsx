@@ -18,13 +18,13 @@ const Header = () => {
                     <span>]</span>
                 </nav>
             </div>
-                <div className="flex items-center space-x-4 text-3xl font-bold">
+                <div className="flex items-center space-x-4 text-3xl font-bold mt-2">
                     <a href="/fr" className="text-sm">FR</a>
                     <span>||</span>
                     <a href="/en" className="text-sm">EN</a>
             </div>
       </header>
     )
-  }
+}
 
 export default Header;
