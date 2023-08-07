@@ -18,10 +18,10 @@ const Header = () => {
                     <span>]</span>
                 </nav>
             </div>
-                <div className="flex items-center space-x-4 text-3xl font-bold mt-2">
-                    <a href="/fr" className="text-sm">FR</a>
-                    <span>||</span>
-                    <a href="/en" className="text-sm">EN</a>
+                <div className="flex items-center space-x-3 font-bold mt-2">
+                    <a href="/fr" className="text-2xl">FR</a>
+                    <p className='text-lg'>||</p>
+                    <a href="/en" className="text-2xl">EN</a>
             </div>
       </header>
     )
