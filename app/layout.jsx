@@ -1,17 +1,15 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Querty',
-  description: 'Personal website of Querty, a blockhain developer and pentester.',
+  description: 'Personal website of Querty, a blockchain developer and pentester.',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="font-fira-code">{children}</body>
     </html>
   )
 }
+

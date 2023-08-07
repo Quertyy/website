@@ -24,6 +24,8 @@ module.exports = {
       },
       colors: {
         'green': '#00ce43',
+        'gray': '#1e1e1e',
+        'bgblack': '#121212',
       }
     },
   },
