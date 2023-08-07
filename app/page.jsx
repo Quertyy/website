@@ -4,12 +4,12 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
-      <div className="mx-auto max-w-screen-md min-h-screen">
+    <div className="flex flex-col min-h-screen">
+      <div className="flex-grow mx-auto max-w-screen-md">
         <div className="bg-gray">
           <Header />
           <main className="flex flex-col items-center justify-center py-2">
-            {/* Le reste de votre contenu ici */}
+
           </main>
         </div>
       </div>

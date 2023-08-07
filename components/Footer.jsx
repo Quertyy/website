@@ -9,7 +9,6 @@ const Footer = () => {
                     <p className="text-md">Find me on </p>
                     <a href="https://twitter.com/quertyeth" target="_blank"><img src="twitter.svg" alt="Twitter" className="h-8 w-auto" /></a>
                     <a href="mailto:quuertyy@protonmail.com" target="_blank"><img src="mail.svg" alt="Contact" className="h-8 w-auto" /></a>
-                    {/* Plus d'icônes ici si nécessaire */}
                 </div>
             </div>
         </footer>

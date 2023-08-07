@@ -19,7 +19,6 @@ module.exports = {
         'green': '#00ce43',
       },
       fontFamily: {
-        // fira code
         'fira-code': ['Fira Code', 'monospace'],
       },
       colors: {
