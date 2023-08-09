@@ -5,9 +5,13 @@ import { useState } from 'react';
 
 const Header = () => {
     return (
-        <header className="flex justify-between items-start pt-10 pb-4 px-8 border-green border-b border-dashed">
+        <header className="flex justify-between items-start pt-10 pb-4 px-8 border-green border-b border-dashed text-gray-t">
             <div className='pb-6'>
-                <img src="querty-01.svg" alt="Logo" className="h-13 w-auto" />
+                <h1 className="text-7xl font-bold text-green blur-[0.75px]" style={{ fontFamily: 'Modeseven' }}>QUERTY
+                    <div className="inline-block pl-4">
+                        <span className="cursor-blink bg-green h-[3.25rem] w-[2rem] block ml-[0.25rem]"></span>
+                    </div>
+                </h1>
                 <nav className="mt-4 text-xl">
                     <span>[</span>
                     <a href="/" className="ml-4 mr-4 hover:blur-xs hover:text-green tracking-widest">Home</a>
