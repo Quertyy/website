@@ -16,9 +16,17 @@
   }
 }
 
+@font-face {
+  font-family: 'Modeseven';
+  src: url('../public/Modeseven.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: #d0d3d2;
   background-color: #1e1e1e;
+  min-height: 100vh;
 }
 
 body > div {
@@ -27,5 +35,17 @@ body > div {
   display: flex;
   flex-direction: column;
   max-width: 48rem;
-  min-height: 100vh;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
 }
