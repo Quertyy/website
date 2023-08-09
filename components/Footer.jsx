@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-bgblack text-lg flex items-center justify-between py-4 px-8 mt-auto md:flex hidden">
+        <footer className="bg-bgblack text-lg flex items-center justify-between py-4 px-8 md:flex sticky top-[100vh]">
             <div className="max-w-screen-md mx-auto flex justify-between w-full tracking-wider">
             <p>Copyright 2023 //{'>'}{'>'} Querty</p>
                 <div className="flex space-x-4">
