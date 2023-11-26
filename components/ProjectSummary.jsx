@@ -4,11 +4,11 @@ const ProjectSummary = () => {
     const projects = [
         {
             language: "Rust",
-            projects: ["Arbitrum airdrop claimer", "Token tracker", "Liquidity tracker", "Rust EVM template", "NFT Mint backrunner"]
+            projects: ["Telegram Bot", "Arbitrum airdrop claimer", "Token tracker", "Liquidity tracker", "NFT Mint backrunner"]
         },
         {
             language: "Solidity",
-            projects: ["NFT Mint", "NFT burner", "NFT staking", "Proj4"]
+            projects: ["NFT Mint", "NFT burner", "NFT staking", "Nodeguardians"]
         },
         {
             language: "HUFF",
@@ -16,7 +16,7 @@ const ProjectSummary = () => {
         },
         {
             language: "Fullstack - Solidity / Typescript",
-            projects: ["Skillz Burner"]
+            projects: ["Skillz Burner", "Apex Mint"]
         }
     ];
 

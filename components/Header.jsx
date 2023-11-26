@@ -22,11 +22,13 @@ const Header = () => {
                     <span>]</span>
                 </nav>
             </div>
-                <div className="flex items-center space-x-3 font-bold mt-2">
-                    <a href="/fr" className="text-2xl">FR</a>
-                    <p className='text-lg'>||</p>
-                    <a href="/en" className="text-2xl">EN</a>
+            {/* <div className="flex items-center space-x-3 font-bold mt-2">
+            <div className="flex items-center space-x-3 font-bold mt-2">
+                <a href="/fr" className="text-2xl">FR</a>
+                <p className='text-lg'>||</p>
+                <a href="/en" className="text-2xl">EN</a>
             </div>
+            } */}
       </header>
     )
 }
